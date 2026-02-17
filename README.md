@@ -19,20 +19,20 @@ V režimu playlistu lze vybrat požadovanou stanici a spuštění probíhá stis
 
 Funkce autocommit řeší tuto situaci tím, že pokud v režimu playlistu enkodér přestane být otáčen, považuje se aktuální volba stanice za potvrzenou. Po uplynutí dvou sekund je tato stanice automaticky spuštěna, bez nutnosti dalšího stisku enkodéru.
 
-Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je <a href="__walda_mod__/autocommit_mod.png">ZDE</a>.
+Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je <a href="__walda_mod__/autocommit_mod.png">ZDE</a>. 
 
 [![Watch the video](https://img.youtube.com/vi/5O8sYkVi7VU/maxresdefault.jpg)](https://youtu.be/5O8sYkVi7VU)
 
 
 #### Vzhled displeje
 
-Pro svůj přehrávač jsem si vybral OLED displej s řadičem SSD1322. Jedná se o monochromatický (ano, umí i stupně šedi) displej s rozlišením 256x64, černým pozadním a bílými pixely. Původní vzhled byl s velkými hodinami, inverovaným zobrazením názvu stanice, posuvníkem hlasitosti apod. Nebylo to vyloženě škaredé, ale jak se říká, 100 lidí, 100 chutí.
+Pro realizaci přehrávače byl zvolen OLED displej s řadičem SSD1322. Jedná se o monochromatický displej s podporou stupňů šedi, s rozlišením 256 × 64 pixelů, černým pozadím a světlými (bílými) obrazovými body.
 
-Cílem byl konzervativní vzhled se základními údaji a bez zbytečných grafických kravinek - kromě toho čtverece s bitrate a typem kodeku.
+Původní grafické rozhraní obsahovalo výrazné digitální hodiny, inverzní zobrazení názvu stanice, grafický indikátor hlasitosti a další prvky. Přestože bylo funkční, výsledné provedení nevyhovovalo požadovanému stylu zobrazení.
 
-<img src="__walda_mod__/SSD1322_mod.jpg">
+Cílem úpravy bylo vytvořit konzervativně pojaté uživatelské rozhraní se zobrazením pouze základních informací a bez nadbytečných grafických prvků. Výjimku tvoří čtverec zobrazující datový tok (bitrate) a použitý kodek, který se mi velmi libí.
 
-Upozornění: Pokud použijete jiný displej než je tento, tak neručím za správné zobrazení. Některé sekce ve zdrojovém kódu jsou autorem velmi zobecněny a pokud bych chtěl zachovat plnou kompatibilitu s ostatními displeji, musel bych tyto úpravy napsat zcela jinak, složitěji a pak vše řádně otestovat. A tolik času se mi do toho vkládat nechtělo.
+Upozornění: Použití jiného typu displeje může vést k nesprávnému zobrazení. Některé části zdrojového kódu jsou navrženy obecně, nicméně úpravy byly provedeny specificky s ohledem na parametry použitého displeje. Zachování plné kompatibility s jinými zobrazovacími moduly by vyžadovalo odlišnou implementaci, vyšší míru abstrakce a následné důkladné testování, což nebylo předmětem této úpravy.
 
 
 
