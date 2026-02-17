@@ -21,6 +21,7 @@ Funkce autocommit řeší tuto situaci tím, že pokud v režimu playlistu enkod
 
 Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je <a href="__walda_mod__/autocommit_mod.png">ZDE</a>.
 
+https://youtu.be/5O8sYkVi7VU
 
 #### Vzhled displeje
 
