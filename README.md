@@ -2,14 +2,16 @@
 
 [<i>English version bellow]</i>]
 
-Yoradio je projekt přehrávače internetových rádií a je založen na ESP32 + ADC převodník, displej, tlačítka, rotační enkodéry apod. V rámci svého baslení jsem se včak rozhodl udělat drobné vylepšení a úpravy (stejně jako mnoho dalších lidí).
+Projekt YoRadio představuje přehrávač internetových rádií založený na platformě ESP32. Hardwarová konfigurace typicky zahrnuje externí DAC/ADC převodník, zobrazovací modul, tlačítka a rotační enkodéry.
 
-Originální projekt najdete zde: https://github.com/e2002/yoradio
+V rámci vlastní implementace byly provedeny dílčí úpravy a rozšíření funkčnosti oproti původní verzi projektu.
 
-Moje verze vychází z originálních zdrojových kódů z poloviny roku 2025. V nich jsem provedl následující úpravy:
+Původní projekt je dostupný v repozitáři GitHub: https://github.com/e2002/yoradio
 
-* Přidal jsem funkci autocommit
-* Upravil jsem vzhled displeje, resp. obrazovek
+Upravená verze vychází ze zdrojových kódů publikovaných přibližně v polovině roku 2025. Oproti této verzi byly realizovány následující změny:
+
+* implementace funkce autocommit
+* úprava grafického rozhraní a vzhledu zobrazovaných obrazovek.
 
 #### Autocommit
 
