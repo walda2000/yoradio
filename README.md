@@ -19,7 +19,7 @@ V režimu playlistu lze vybrat požadovanou stanici a spuštění probíhá stis
 
 Funkce autocommit řeší tuto situaci tím, že pokud v režimu playlistu enkodér přestane být otáčen, považuje se aktuální volba stanice za potvrzenou. Po uplynutí dvou sekund je tato stanice automaticky spuštěna, bez nutnosti dalšího stisku enkodéru.
 
-Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je zde: __walda_mod__/autocommit_mod.png
+Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je <a href="__walda_mod__/autocommit_mod.png">ZDE</a>.
 
 
 #### Vzhled displeje
