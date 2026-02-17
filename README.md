@@ -58,6 +58,42 @@ https://www.aliexpress.com/item/1005006986329518.html
 
 V dokumentaci projektu YoRadio je k dispozici konfigurátor i přehled zapojení jednotlivých pinů pro použité komponenty.
 
-Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiřazuje vstupy rotačního enkodéru na piny, které nemají HW interní pull-up rezistory. V takovém případě je nutné zajistit externí pull-up odpory. Rotační enkodéry z výše uvedeného odkazu jsou vybaveny malou přídavnou deskou plošných spojů, na které jsou pull-up odpory již osazeny. Pro správnou funkci proto stačí kromě signálových vodičů a GND připojit také napájení 3,3 V (3V3).
+Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiřazuje vstupy rotačního enkodéru na piny, které nemají interní pull-up rezistory. V takovém případě je nutné zajistit externí pull-up odpory. Rotační enkodéry z výše uvedeného odkazu jsou vybaveny malou přídavnou deskou plošných spojů, na které jsou pull-up odpory již osazeny. Pro správnou funkci proto stačí kromě signálových vodičů a GND připojit také napájení 3,3 V (3V3).
 
 
+
+[<i>English version]</i>]
+
+The YoRadio project is an internet radio player based on the ESP32 platform. The typical hardware configuration includes an external DAC, a display, push buttons, and rotary encoders.
+
+In my implementation, several minor modifications and functional enhancements were made compared to the original project version.
+
+The original project is available on GitHub:
+https://github.com/e2002/yoradio
+
+The modified version is based on the source code published around mid-2025. Compared to that version, the following changes were implemented:
+
+* implementation of the autocommit function
+* modification of the display layout and screen appearance
+
+#### Autocommit
+
+The YoRadio firmware allows the player to be controlled using push buttons, rotary encoders, or a touchscreen. These control elements can be combined in various ways; however, using a single rotary encoder (ENC2) proved to be the most practical solution. Rotating the encoder left or right switches between the player mode (displaying time, station name, and other information) and the playlist mode (a list of stations uploaded to the ESP via the web interface).
+
+In playlist mode, a station can be selected and started by pressing the encoder. This control method has one drawback: when pressing the encoder, it is easy to unintentionally rotate it slightly, which may result in starting a different station than intended.
+
+The autocommit function addresses this issue. If the encoder stops rotating while in playlist mode, the currently selected station is considered confirmed. After a two-second timeout, the station is started automatically without requiring an additional press of the encoder.
+
+From a technical perspective, this modification involves minor changes in three files: myoptions.h, timekeeper.cpp, and display.cpp. The specific code modifications can be found <a href="__walda_mod__/autocommit_mod.png">HERE</a>.
+
+#### Display Layout
+
+An OLED display with the SSD1322 controller was selected for this build. It is a monochrome display with grayscale support and a resolution of 256 × 64 pixels, featuring a black background with bright (white) pixels.
+
+The original graphical interface included large digital clock digits, an inverted station name, a graphical volume indicator, and several additional visual elements. Although fully functional, the overall appearance did not match the intended visual style.
+
+The goal of the modification was to create a more conservative user interface showing only essential information, without unnecessary graphical decorations. The only preserved visual element beyond the basics is the square indicator displaying the current bitrate and audio codec, which provides useful real-time information and complements the layout.
+
+Note: Using a different display type may result in incorrect rendering. While some parts of the source code are written in a generic way, the modifications were implemented specifically with the parameters of the selected display in mind. Ensuring full compatibility with other display modules would require a different implementation approach, a higher level of abstraction, and thorough testing, which was outside the scope of this modification.
+
+<img src="__walda_mod__/SSD1322_mod.jpg">
