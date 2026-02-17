@@ -24,6 +24,8 @@ Funkce autocommit řeší tuto situaci tím, že pokud v režimu playlistu enkod
 
 Pro svůj přehrávač jsem si vybral OLED displej s řadičem SSD1322. Jedná se o monochromatický (ano, umí i stupně šedi) displej s rozlišením 256x64, černým pozadním a bílými pixely. Původní vzhled byl s velkými hodinami, inverovaným zobrazením názvu stanice, posuvníkem hlasitosti apod. Nebylo to vyloženě škaredé, ale jak se říká, 100 lidí, 100 chutí.
 
+<img src="__walda_mod__/SSD1322_mod.jpg">
+
 
 
 
