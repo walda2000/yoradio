@@ -1,3 +1,4 @@
+
 ## Yoradio: Walda's Edition
 
 [<i>English version bellow]</i>]
@@ -36,5 +37,6 @@ Cílem úpravy bylo vytvořit konzervativně pojaté uživatelské rozhraní se 
 
 Upozornění: Použití jiného typu displeje může vést k nesprávnému zobrazení. Některé části zdrojového kódu jsou navrženy obecně, nicméně úpravy byly provedeny specificky s ohledem na parametry použitého displeje. Zachování plné kompatibility s jinými zobrazovacími moduly by vyžadovalo odlišnou implementaci, vyšší míru abstrakce a následné důkladné testování, což nebylo předmětem této úpravy.
 
+<img src="__walda_mod__/SSD1322_mod.png">
 
 
