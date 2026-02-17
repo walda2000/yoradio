@@ -62,7 +62,7 @@ Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiř
 
 
 
-[<i>English version]</i>]
+## Yoradio: Walda's Edition
 
 The YoRadio project is an internet radio player based on the ESP32 platform. The typical hardware configuration includes an external DAC, a display, push buttons, and rotary encoders.
 
