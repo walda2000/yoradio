@@ -24,6 +24,8 @@ Funkce autocommit řeší tuto situaci tím, že pokud v režimu playlistu enkod
 
 Technicky jde o drobné úpravy ve třech souborech: <i>myoptions.h</i>, <i>timekeeper.cpp</i> a <i>display.cpp</i>. Co se měnilo je <a href="__walda_mod__/autocommit_mod.png">ZDE</a>. 
 
+Zde je video jak to funguje:
+
 [![Watch the video](https://img.youtube.com/vi/5O8sYkVi7VU/maxresdefault.jpg)](https://youtu.be/5O8sYkVi7VU)
 
 
@@ -87,6 +89,8 @@ In playlist mode, a station can be selected and started by pressing the encoder.
 The autocommit function addresses this issue. If the encoder stops rotating while in playlist mode, the currently selected station is considered confirmed. After a two-second timeout, the station is started automatically without requiring an additional press of the encoder.
 
 From a technical perspective, this modification involves minor changes in three files: myoptions.h, timekeeper.cpp, and display.cpp. The specific code modifications can be found <a href="__walda_mod__/autocommit_mod.png">HERE</a>.
+
+Here is a video showing how it works:
 
 [![Watch the video](https://img.youtube.com/vi/5O8sYkVi7VU/maxresdefault.jpg)](https://youtu.be/5O8sYkVi7VU)
 
