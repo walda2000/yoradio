@@ -86,6 +86,8 @@ The autocommit function addresses this issue. If the encoder stops rotating whil
 
 From a technical perspective, this modification involves minor changes in three files: myoptions.h, timekeeper.cpp, and display.cpp. The specific code modifications can be found <a href="__walda_mod__/autocommit_mod.png">HERE</a>.
 
+[![Watch the video](https://img.youtube.com/vi/5O8sYkVi7VU/maxresdefault.jpg)](https://youtu.be/5O8sYkVi7VU)
+
 #### Display Layout
 
 An OLED display with the SSD1322 controller was selected for this build. It is a monochrome display with grayscale support and a resolution of 256 × 64 pixels, featuring a black background with bright (white) pixels.
