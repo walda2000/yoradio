@@ -40,3 +40,22 @@ Upozornění: Použití jiného typu displeje může vést k nesprávnému zobra
 <img src="__walda_mod__/SSD1322_mod.jpg">
 
 
+#### Hardware
+
+Níže jsou uvedeny odkazy na použitý hardware. Nelze zaručit jejich dlouhodobou dostupnost, nicméně všechny komponenty představují běžně dostupné a standardně používané moduly odpovídající požadavkům projektu YoRadio. Nejedná se o žádné speciální ani atypické součástky.
+
+PCM5102 PCM5102A DAC Decoder Board I2S Input 32Bit 384K for Red Core Player Supports I2S format/left justified
+https://www.aliexpress.com/item/1005006012626189.html
+
+ESP32 WROOM-32 Development Board TYPE-C CH340C/ CP2102 WiFi+Bluetooth Ultra-Low Power Consumption Dual Core Wireless Module
+https://www.aliexpress.com/item/1005005953505528.html
+
+Real OLED Display 3.12" 256*64 25664 Dots Graphic LCD Module Display Screen LCM Screen SSD1322 Controller Support SPI
+https://www.aliexpress.com/item/1005003091450549.html
+
+Rotary Encoder Module Brick Sensor Development Round Audio Rotating Potentiometer Knob Cap EC11
+https://www.aliexpress.com/item/1005006986329518.html
+
+
+
+
