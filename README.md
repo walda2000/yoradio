@@ -2,7 +2,7 @@
 
 [<i>English version bellow]</i>]
 
-Projekt YoRadio představuje přehrávač internetových rádií založený na platformě ESP32. Hardwarová konfigurace typicky zahrnuje externí DAC/ADC převodník, zobrazovací modul, tlačítka a rotační enkodéry.
+Projekt YoRadio představuje přehrávač internetových rádií založený na platformě ESP32. Hardwarová konfigurace typicky zahrnuje externí DA převodník, displej, tlačítka a rotační enkodéry.
 
 V rámci vlastní implementace byly provedeny dílčí úpravy a rozšíření funkčnosti oproti původní verzi projektu.
 
