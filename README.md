@@ -1,5 +1,5 @@
 
-## Yoradio: Walda's Edition
+## [CZ] Yoradio: Walda's Edition
 
 [<i>English version bellow]</i>]
 
@@ -62,7 +62,7 @@ Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiř
 
 
 
-## Yoradio: Walda's Edition
+## [EN] Yoradio: Walda's Edition
 
 The YoRadio project is an internet radio player based on the ESP32 platform. The typical hardware configuration includes an external DAC, a display, push buttons, and rotary encoders.
 
@@ -97,3 +97,24 @@ The goal of the modification was to create a more conservative user interface sh
 Note: Using a different display type may result in incorrect rendering. While some parts of the source code are written in a generic way, the modifications were implemented specifically with the parameters of the selected display in mind. Ensuring full compatibility with other display modules would require a different implementation approach, a higher level of abstraction, and thorough testing, which was outside the scope of this modification.
 
 <img src="__walda_mod__/SSD1322_mod.jpg">
+
+#### Hardware
+
+Below are links to the hardware used. Long-term availability of the exact listings cannot be guaranteed; however, all components are standard, commonly available modules that meet the requirements of the YoRadio project. No special or uncommon parts are required.
+
+PCM5102 PCM5102A DAC Decoder Board I2S Input 32Bit 384K for Red Core Player Supports I2S format/left justified
+https://www.aliexpress.com/item/1005006012626189.html
+
+ESP32 WROOM-32 Development Board TYPE-C CH340C/ CP2102 WiFi+Bluetooth Ultra-Low Power Consumption Dual Core Wireless Module
+https://www.aliexpress.com/item/1005005953505528.html
+
+Real OLED Display 3.12" 256*64 25664 Dots Graphic LCD Module Display Screen LCM Screen SSD1322 Controller Support SPI
+https://www.aliexpress.com/item/1005003091450549.html
+
+Rotary Encoder Module Brick Sensor Development Round Audio Rotating Potentiometer Knob Cap EC11
+https://www.aliexpress.com/item/1005006986329518.html
+
+One practical detail should be noted: the configurator assigns the rotary encoder inputs to GPIO pins without internal pull-up resistors enabled. In such a case, external pull-up resistors are required.
+
+The rotary encoders linked above include a small PCB on the back side with pull-up resistors already populated. For proper operation, it is therefore sufficient to connect the signal lines, GND, and the 3.3 V supply (3V3).
+
