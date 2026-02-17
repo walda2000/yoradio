@@ -56,6 +56,8 @@ https://www.aliexpress.com/item/1005003091450549.html
 Rotary Encoder Module Brick Sensor Development Round Audio Rotating Potentiometer Knob Cap EC11
 https://www.aliexpress.com/item/1005006986329518.html
 
+V dokumentaci projektu YoRadio je k dispozici konfigurátor i přehled zapojení jednotlivých pinů pro použité komponenty.
 
+Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiřazuje vstupy rotačního enkodéru na piny, které nemají HW interní pull-up rezistory. V takovém případě je nutné zajistit externí pull-up odpory. Rotační enkodéry z výše uvedeného odkazu jsou vybaveny malou přídavnou deskou plošných spojů, na které jsou pull-up odpory již osazeny. Pro správnou funkci proto stačí kromě signálových vodičů a GND připojit také napájení 3,3 V (3V3).
 
 
