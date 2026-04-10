@@ -5,6 +5,8 @@
 
 <img src="__walda_mod__/yoradio_walda_case_0.jpg">
 
+<img src="__walda_mod__/yoradio_walda_case_1.jpg" width="250px">
+
 Projekt YoRadio představuje přehrávač internetových rádií založený na platformě ESP32. Hardwarová konfigurace typicky zahrnuje externí DA převodník, displej, tlačítka a rotační enkodéry.
 
 V rámci vlastní implementace byly provedeny dílčí úpravy a rozšíření funkčnosti oproti původní verzi projektu.
