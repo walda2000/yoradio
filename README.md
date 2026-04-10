@@ -81,6 +81,16 @@ Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiř
 
 [<i>Machine translation</i>]
 
+<img src="__walda_mod__/yoradio_walda_case_0.jpg">
+
+<p>
+  <img src="__walda_mod__/yoradio_walda_case_1.jpg" width="180">
+  <img src="__walda_mod__/yoradio_walda_case_2.jpg" width="180">
+  <img src="__walda_mod__/yoradio_walda_case_3.jpg" width="180">
+  <img src="__walda_mod__/yoradio_walda_case_4.jpg" width="180">
+  <img src="__walda_mod__/yoradio_walda_case_5.jpg" width="180">
+</p>
+
 The YoRadio project is an internet radio player based on the ESP32 platform. The typical hardware configuration includes an external DAC, a display, push buttons, and rotary encoders.
 
 In my implementation, several minor modifications and functional enhancements were made compared to the original project version.
