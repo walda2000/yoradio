@@ -64,6 +64,9 @@ V dokumentaci projektu YoRadio je k dispozici konfigurátor i přehled zapojení
 
 Je však vhodné upozornit na jednu praktickou skutečnost: konfigurátor přiřazuje vstupy rotačního enkodéru na piny, které nemají interní pull-up rezistory. V takovém případě je nutné zajistit externí pull-up odpory. Rotační enkodéry z výše uvedeného odkazu jsou vybaveny malou přídavnou deskou plošných spojů, na které jsou pull-up odpory již osazeny. Pro správnou funkci proto stačí kromě signálových vodičů a GND připojit také napájení 3,3 V (3V3).
 
+#### Krabička
+
+3D model je ke stažení zde: https://www.printables.com/model/1678958-yoradio-waldas-edition
 
 
 ## [EN] Yoradio: Walda's Edition
@@ -127,4 +130,7 @@ https://www.aliexpress.com/item/1005006986329518.html
 One practical detail should be noted: the configurator assigns the rotary encoder inputs to GPIO pins without internal pull-up resistors enabled. In such a case, external pull-up resistors are required.
 
 The rotary encoders linked above include a small PCB on the back side with pull-up resistors already populated. For proper operation, it is therefore sufficient to connect the signal lines, GND, and the 3.3 V supply (3V3).
+
+#### Case
+The 3D model is available for download here: https://www.printables.com/model/1678958-yoradio-waldas-edition
 
